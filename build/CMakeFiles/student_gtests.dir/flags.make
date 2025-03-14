@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src
 
-CXX_FLAGS = -DGTEST_HAS_PTHREAD=1 -std=c++20
+CXX_FLAGS = -fsanitize=address,undefined -DGTEST_HAS_PTHREAD=1 -std=c++20
 
