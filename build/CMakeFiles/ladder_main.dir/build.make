@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker
+CMAKE_SOURCE_DIR = /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build
+CMAKE_BINARY_DIR = /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ladder_main.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/ladder_main.dir/flags.make
 CMakeFiles/ladder_main.dir/src/ladder.cpp.o: CMakeFiles/ladder_main.dir/flags.make
 CMakeFiles/ladder_main.dir/src/ladder.cpp.o: ../src/ladder.cpp
 CMakeFiles/ladder_main.dir/src/ladder.cpp.o: CMakeFiles/ladder_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ladder_main.dir/src/ladder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ladder_main.dir/src/ladder.cpp.o -MF CMakeFiles/ladder_main.dir/src/ladder.cpp.o.d -o CMakeFiles/ladder_main.dir/src/ladder.cpp.o -c /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ladder_main.dir/src/ladder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ladder_main.dir/src/ladder.cpp.o -MF CMakeFiles/ladder_main.dir/src/ladder.cpp.o.d -o CMakeFiles/ladder_main.dir/src/ladder.cpp.o -c /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp
 
 CMakeFiles/ladder_main.dir/src/ladder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ladder_main.dir/src/ladder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp > CMakeFiles/ladder_main.dir/src/ladder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp > CMakeFiles/ladder_main.dir/src/ladder.cpp.i
 
 CMakeFiles/ladder_main.dir/src/ladder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ladder_main.dir/src/ladder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp -o CMakeFiles/ladder_main.dir/src/ladder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp -o CMakeFiles/ladder_main.dir/src/ladder.cpp.s
 
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o: CMakeFiles/ladder_main.dir/flags.make
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o: ../src/ladder_main.cpp
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o: CMakeFiles/ladder_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o -MF CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o.d -o CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o -c /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o -MF CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o.d -o CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o -c /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp
 
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ladder_main.dir/src/ladder_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp > CMakeFiles/ladder_main.dir/src/ladder_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp > CMakeFiles/ladder_main.dir/src/ladder_main.cpp.i
 
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ladder_main.dir/src/ladder_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp -o CMakeFiles/ladder_main.dir/src/ladder_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp -o CMakeFiles/ladder_main.dir/src/ladder_main.cpp.s
 
 # Object files for target ladder_main
 ladder_main_OBJECTS = \
@@ -109,7 +109,7 @@ ladder_main: CMakeFiles/ladder_main.dir/src/ladder.cpp.o
 ladder_main: CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o
 ladder_main: CMakeFiles/ladder_main.dir/build.make
 ladder_main: CMakeFiles/ladder_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ladder_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ladder_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ladder_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/ladder_main.dir/clean:
 .PHONY : CMakeFiles/ladder_main.dir/clean
 
 CMakeFiles/ladder_main.dir/depend:
-	cd /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles/ladder_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build/CMakeFiles/ladder_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ladder_main.dir/depend
 

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.cpp" "CMakeFiles/dijkstra_main.dir/src/dijkstras.cpp.o" "gcc" "CMakeFiles/dijkstra_main.dir/src/dijkstras.cpp.o.d"
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras_main.cpp" "CMakeFiles/dijkstra_main.dir/src/dijkstras_main.cpp.o" "gcc" "CMakeFiles/dijkstra_main.dir/src/dijkstras_main.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.cpp" "CMakeFiles/dijkstra_main.dir/src/dijkstras.cpp.o" "gcc" "CMakeFiles/dijkstra_main.dir/src/dijkstras.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras_main.cpp" "CMakeFiles/dijkstra_main.dir/src/dijkstras_main.cpp.o" "gcc" "CMakeFiles/dijkstra_main.dir/src/dijkstras_main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -64,7 +64,7 @@ bool is_adjacent(const string& word1, const string& word2){
 
 void verify_word_ladder(){
     set<string> word_list;
-    load_words(word_list, "words.txt");
+    load_words(word_list, "src/words.txt");
     
     string begin_word, end_word;
     

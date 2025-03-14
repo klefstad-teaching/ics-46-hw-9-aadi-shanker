@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/gtest/gtestmain.cpp" "CMakeFiles/student_gtests.dir/gtest/gtestmain.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/gtest/gtestmain.cpp.o.d"
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/gtest/student_gtests.cpp" "CMakeFiles/student_gtests.dir/gtest/student_gtests.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/gtest/student_gtests.cpp.o.d"
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.cpp" "CMakeFiles/student_gtests.dir/src/dijkstras.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/src/dijkstras.cpp.o.d"
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp" "CMakeFiles/student_gtests.dir/src/ladder.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/src/ladder.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/gtest/gtestmain.cpp" "CMakeFiles/student_gtests.dir/gtest/gtestmain.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/gtest/gtestmain.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/gtest/student_gtests.cpp" "CMakeFiles/student_gtests.dir/gtest/student_gtests.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/gtest/student_gtests.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.cpp" "CMakeFiles/student_gtests.dir/src/dijkstras.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/src/dijkstras.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp" "CMakeFiles/student_gtests.dir/src/ladder.cpp.o" "gcc" "CMakeFiles/student_gtests.dir/src/ladder.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,7 +1,7 @@
 CMakeFiles/student_gtests.dir/src/dijkstras.cpp.o: \
- /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.cpp \
+ /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.cpp \
  /usr/include/stdc-predef.h \
- /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.h \
+ /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/dijkstras.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

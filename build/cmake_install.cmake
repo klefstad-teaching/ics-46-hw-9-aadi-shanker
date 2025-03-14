@@ -1,4 +1,4 @@
-# Install script for directory: /home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker
+# Install script for directory: /home/ics-home/ICS46/ics-46-hw-9-aadi-shanker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

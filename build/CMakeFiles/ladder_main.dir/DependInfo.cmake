@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp" "CMakeFiles/ladder_main.dir/src/ladder.cpp.o" "gcc" "CMakeFiles/ladder_main.dir/src/ladder.cpp.o.d"
-  "/home/aadidevs/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp" "CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o" "gcc" "CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder.cpp" "CMakeFiles/ladder_main.dir/src/ladder.cpp.o" "gcc" "CMakeFiles/ladder_main.dir/src/ladder.cpp.o.d"
+  "/home/ics-home/ICS46/ics-46-hw-9-aadi-shanker/src/ladder_main.cpp" "CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o" "gcc" "CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o.d"
   )
 
 # Targets to which this target links.
