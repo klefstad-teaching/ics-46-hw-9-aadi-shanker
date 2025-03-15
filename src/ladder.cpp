@@ -56,28 +56,29 @@ void load_words(set<string>& word_list, const string& file_name){
 }
 
 vector<string> generate_word_ladder(const string& begin_word, const string& end_word, const set<string>& word_list) {
-    if (begin_word == end_word){
+    if (begin_word == end_word)
         return vector<string>{begin_word};
-    }
-    
-    queue<vector<string>> ladderQueue;
-    ladderQueue.push({begin_word});
+        
+    queue<vector<string>> ladder_queue;
+    ladder_queue.push({begin_word});
     set<string> visited;
     visited.insert(begin_word);
-    
-    while (!ladderQueue.empty()){
-        vector<string> currentLadder = ladderQueue.front();
-        ladderQueue.pop();
-        string last_word = currentLadder.back();
-        for (const string& candidate : word_list){
-            if (is_adjacent(last_word, candidate) && visited.find(candidate) == visited.end()) {
-                visited.insert(candidate);
-                vector<string> newLadder = currentLadder;
-                newLadder.push_back(candidate);
-                if (candidate == end_word){
-                    return newLadder;
-                }
-                ladderQueue.push(newLadder);
+
+    while (!ladder_queue.empty()) {
+        vector<string> ladder = ladder_queue.front();
+        ladder_queue.pop();
+        string last_word = ladder.back();
+        for (const string& word : word_list) {
+            
+            if (is_adjacent(last_word, word) && visited.find(word) == visited.end()){
+                visited.insert(word);
+                vector<string> new_ladder = ladder;
+                new_ladder.push_back(word);
+                
+                if (word == end_word)
+                    return new_ladder;
+                
+                ladder_queue.push(new_ladder);
             }
         }
     }
@@ -92,6 +93,7 @@ void print_word_ladder(const vector<string>& ladder){
     }
     cout << "Word ladder found: ";
     for (size_t i = 0; i < ladder.size(); ++i){
+        // cout << ladder.size();
         cout << ladder[i];
         if (i < ladder.size() - 1)
             cout << " ";
